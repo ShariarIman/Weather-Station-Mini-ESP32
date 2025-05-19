@@ -39,5 +39,5 @@ A MicroPython-based weather station for ESP32 or similar microcontrollers. The p
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/weather-station.git
+   git clone https://github.com/ShariarIman/Weather-Station-Mini-ESP32.git
    cd weather-station
