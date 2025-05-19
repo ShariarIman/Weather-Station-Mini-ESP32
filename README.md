@@ -16,6 +16,7 @@ A MicroPython-based weather station for ESP32 or similar microcontrollers. The p
 - BME280 sensor (I2C, address 0x76).
 - SH1106 OLED display (128x64, SPI).
 - Push button (GPIO 14).
+- RS485 to TTL Module Suitable for UART Serial Port
 - Modbus RTU device (connected via UART, pins 16/17).
 - Voltage divider (100kΩ resistors) for battery voltage measurement (GPIO 34).
 - Wi-Fi access for internet connectivity.
