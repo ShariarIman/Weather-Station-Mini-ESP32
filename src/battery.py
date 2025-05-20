@@ -35,7 +35,7 @@ R1 = 99100.0  # (+/- 100kΩ) My one is 99.1kΩ
 R2 = 99100.0  # (+/- 100kΩ) My one is 99.1kΩ
 
 # Calibration factor to adjust ADC voltage reading
-calibration_factor = 1.13
+calibration_factor = 1.14
 voltage_offset = 0.0
 
 def read_battery_voltage(state=None):
