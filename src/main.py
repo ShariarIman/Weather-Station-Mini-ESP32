@@ -575,6 +575,8 @@ def main():
             if current_page == 3:
                 read_modbus()
             if wifi_ok and time.ticks_diff(now, last_thingspeak_update) >= THINGSPEAK_INTERVAL:
+                print("Fetching fresh Modbus data for ThingSpeak upload")
+                read_modbus()  # Fetch the latest wind_speed before uploading
                 print("Uploading to ThingSpeak")
                 upload_to_thingspeak(temp, hum, pressure, wind_speed)
                 last_thingspeak_update = now
