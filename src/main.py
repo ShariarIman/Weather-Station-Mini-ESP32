@@ -142,7 +142,8 @@ WEATHER_CODES = {
     60: "Rain", 61: "Rain", 62: "Rain",
     70: "Rain", 71: "Rain", 72: "Rain",
     80: "Rain", 81: "Rain", 82: "Rain",
-    90: "Storm", 91: "Storm", 92: "Storm"
+    90: "Storm", 91: "Storm", 92: "Storm",
+    95: "T.Storm", 96: "T.Storm", 99: "T.Storm"
 }
 
 def connect_wifi():
