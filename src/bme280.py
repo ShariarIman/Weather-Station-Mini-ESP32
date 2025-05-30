@@ -1,4 +1,4 @@
-# MicroPython BME_2080_Custom_Library
+# MicroPython BME_280_Custom_Library
 #
 # The MIT License (MIT)
 #
